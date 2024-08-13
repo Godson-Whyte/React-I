@@ -1,0 +1,68 @@
+/* General styling for the app container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  font-family: "Arial", sans-serif;
+}
+
+/* Styling for the product card */
+.product-card {
+  width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-body h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.card-body p {
+  color: #777;
+  margin: 10px 0;
+}
+
+.card-body p:nth-child(2) {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+/* Styling for the greeting container */
+.greeting-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.greeting-container h3 {
+  font-size: 1.8rem;
+  color: #2c3e50;
+}
+
+.user-image {
+  margin-top: 15px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #3498db;
+  transition: transform 0.3s ease;
+}
+
+.user-image:hover {
+  transform: scale(1.1);
+}
